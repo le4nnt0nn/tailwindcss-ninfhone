@@ -1,13 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Sen:wght@400;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer components {
 
-    body {
-        /*
-        background: rgb(180,240,250);
-        background: linear-gradient(90deg, rgba(180,240,250,1) 0%, rgba(255,255,255,1) 100%);
-        */
+    * {
+        @apply
+        font-sen
+    }
+
+    .header {
+        background: rgb(236,233,230);
+        background: linear-gradient(90deg, rgba(236,233,230,1) 0%, rgba(255,255,255,1) 100%);
+        @apply
+        w-full
+        h-10
+    }
+
+    .menu {
+        @apply
+        inline
+        h-10
+        float-right
+    }
+
+    .menu ul li {
+        @apply
+        text-bluePrimary
+        inline-block
+        text-lg
+        font-bold
+        mr-11
+    }
+
+    .menu ul li a {
+        @apply
+        no-underline
     }
 }
