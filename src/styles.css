@@ -39,4 +39,19 @@
         @apply
         no-underline
     }
+
+    .ad {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .centerAll {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .card {
+        background: rgb(236,233,230);
+        background: linear-gradient(90deg, rgba(236,233,230,1) 0%, rgba(255,255,255,1) 100%);
+    }
 }
