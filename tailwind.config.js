@@ -2,16 +2,22 @@ module.exports = {
     theme: {
         extend: {
             screens: {
-                'xs':'360px'
+                'xs':'360px',
+                'sm':'300px'
             },
             keyframes: {
                 slideDown: {
                    'from': {'transform':'translateY(-10%)'},
                    'to': {'transform':'translateY(0%)'} 
+                },
+                slideLeft: {
+                    'from': {'transform':'translateX(-10%)'},
+                    'to': {'transform':'translateX(0%)'} 
                 }
             },
             animation: {
-                'slideDownAn':'slideDown 2s linear'
+                'slideDownAn':'slideDown 2s linear',
+                'slideLeftAn':'slideLeft 2s linear'
             },
             colors: {
                 'bluePrimary':'#639AE2',
