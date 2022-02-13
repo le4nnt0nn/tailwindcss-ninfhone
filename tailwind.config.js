@@ -5,10 +5,13 @@ module.exports = {
                 'xs':'360px'
             },
             keyframes: {
-
+                slideDown: {
+                   'from': {'transform':'translateY(-10%)'},
+                   'to': {'transform':'translateY(0%)'} 
+                }
             },
             animation: {
-
+                'slideDownAn':'slideDown 2s linear'
             },
             colors: {
                 'bluePrimary':'#639AE2',
