@@ -35,13 +35,15 @@
     }
 
     .ad {
-        width: 50%;
         margin: 0 auto;
+        @apply
+        w-2/4
     }
 
     .centerAll {
-        width: 50%;
         margin: 0 auto;
+        @apply
+        w-2/4
     }
 
     .card {
