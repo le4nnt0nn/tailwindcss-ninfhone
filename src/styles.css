@@ -7,51 +7,45 @@
 @layer components {
 
     * {
-        @apply
-        font-sen
+        @apply font-sen
     }
 
     .header {
-        background: rgb(236,233,230);
-        background: linear-gradient(90deg, rgba(236,233,230,1) 0%, rgba(255,255,255,1) 100%);
-        @apply
-        w-full
-        h-10
+        background: rgb(236, 233, 230);
+        background: linear-gradient(90deg, rgba(236, 233, 230, 1) 0%, rgba(255, 255, 255, 1) 100%);
+        @apply w-full h-1/6
+    }
+
+    .headerMobile {
+        background: rgb(236, 233, 230);
+        background: linear-gradient(90deg, rgba(236, 233, 230, 1) 0%, rgba(255, 255, 255, 1) 100%);
+        @apply w-full h-1/5
     }
 
     .menu {
-        @apply
-        inline
-        h-10
-        float-right
+        @apply inline h-10 float-right
     }
 
     .menu ul li {
-        @apply
-        text-bluePrimary
-        inline-block
-        text-lg
-        font-bold
-        mr-11
+        @apply text-bluePrimary inline-block text-lg font-bold mr-11
     }
 
     .menu ul li a {
-        @apply
-        no-underline
+        @apply no-underline
     }
 
     .ad {
         width: 50%;
         margin: 0 auto;
     }
-    
+
     .centerAll {
         width: 50%;
         margin: 0 auto;
     }
 
     .card {
-        background: rgb(236,233,230);
-        background: linear-gradient(90deg, rgba(236,233,230,1) 0%, rgba(255,255,255,1) 100%);
+        background: rgb(236, 233, 230);
+        background: linear-gradient(90deg, rgba(236, 233, 230, 1) 0%, rgba(255, 255, 255, 1) 100%);
     }
 }

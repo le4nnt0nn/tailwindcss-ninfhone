@@ -10,13 +10,16 @@
 </head>
 
 <body class="bg-backweb bg-no-repeat bg-cover w-full">
-    <div class="header">
-        <div class="logo p-1 ml-20 float-left">
+    <!--Logo for header-->
+    <div class="mobileNav:header headerMobile">
+        <div class="logo mobileNav:p-1 mobileNav:ml-20 mobileNav:float-left text-center mr-auto ml-auto">
             <h1 class="text-2xl font-bold"><span class="text-blackPrimary">NINFH</span><span
                     class="text-bluePrimary">ONE</span></h1>
         </div>
+        <!--Menu-->
         <nav class="menu">
-            <ul class="p-1 mr-12">
+            <ul
+                class="mobileNav:p-1 mobileNav:mr-12 p-1 justify-items-center justify-center text-center mr-auto ml-auto">
                 <li><a href="#">home</a></li>
                 <li><a href="#">new</a></li>
                 <li><a href="#">shop</a></li>
@@ -51,6 +54,7 @@
             <!--Card 1-->
             <div class="card cursor-pointer rounded-3xl text-center overflow-hidden shadow-lg">
                 <img class="w-full pt-6" src="./img/phoneCard.png">
+                <!--Colors for card-->
                 <img class="w-1/3 block mt-3 ml-auto mr-auto align-middle justify-center self-center"
                     src="./img/colors.png">
                 <div class="px-6 py-4">
@@ -60,6 +64,7 @@
                         The real power in your hands.
                     </p>
                 </div>
+                <!--Buy button-->
                 <div class="px-6 pt-4 pb-4 text-center">
                     <button
                         class="inline-block bg-blue-400 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Buy</button>
@@ -68,15 +73,17 @@
             <!--Card 2-->
             <div class="card cursor-pointer rounded-3xl overflow-hidden shadow-lg">
                 <img class="w-full pt-6" src="./img/phoneCard.png">
+                <!--Colors for card-->
                 <img class="w-1/3 block mt-3 ml-auto mr-auto  align-middle justify-center self-center"
                     src="./img/colors.png">
                 <div class="px-6 py-4">
                     <div class="text-blue-400 text-xl mb-2 text-center">New</div>
-                    <div class="font-bold text-blackPrimary text-2xl mb-2 text-center">ONE B</div>
+                    <div class="font-bold text-blackPrimary text-2xl mb-2 text-center">ONE B Pro</div>
                     <p class="text-blackPrimary text-base text-center">
                         Smooth and clean. Elegancy.
                     </p>
                 </div>
+                <!--Buy button-->
                 <div class="px-6 pt-4 pb-4 text-center">
                     <button
                         class="inline-block bg-blue-400 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Buy</button>
@@ -86,25 +93,30 @@
             <!--Card 3-->
             <div class="card cursor-pointer rounded-3xl overflow-hidden shadow-lg">
                 <img class="w-full pt-6" src="./img/phoneCard.png">
+                <!--Colors for card-->
                 <img class="w-1/3 block mt-3 ml-auto mr-auto align-middle justify-center self-center"
                     src="./img/colors.png">
                 <div class="px-6 py-4">
                     <div class="text-blue-400 text-xl mb-2 text-center">New</div>
-                    <div class="font-bold text-blackPrimary text-2xl mb-2 text-center">ONE B</div>
+                    <div class="font-bold text-blackPrimary text-2xl mb-2 text-center">ONE Y</div>
                     <p class="text-blackPrimary text-base text-center">
                         All in one for ever in your pocket.
                     </p>
                 </div>
+                <!--Buy button-->
                 <div class="px-6 pt-4 pb-4 text-center">
                     <button
                         class="inline-block bg-blue-400 rounded-full px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Buy</button>
                 </div>
             </div>
         </div>
+        <!--Discover accesories-->
         <div class="text-center ml-2 mb-32 text-xl">
-            <h1 class="cursor-pointer text-blue-400 ease-out transition duration-150 hover:text-gray-700 hover:ease-in">Discover all accessories ></h1>
+            <h1 class="cursor-pointer text-blue-400 ease-out transition duration-150 hover:text-gray-700 hover:ease-in">
+                Discover all accessories ></h1>
         </div>
     </div>
+    <!--Info banner-->
     <div class="w-full h-auto card grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
         <div class="text-center p-20">
             <img class="block ml-auto mr-auto animate-slideLeftAn" src="./img/box.png">
@@ -115,7 +127,8 @@
         <div class="text-center p-20">
             <img class="block ml-auto mr-auto animate-slideLeftAn" src="./img/money.png">
             <h1 class="pt-5 font-bold text-xl text-blackPrimary">Pay monthly at 0% APR</h1>
-            <p text-blackPrimary>You can pay over time when you choose to check out with Ninfhone Card Monthly Installments.*</p>
+            <p text-blackPrimary>You can pay over time when you choose to check out with Ninfhone Card Monthly
+                Installments.*</p>
         </div>
         <div class="text-center p-20">
             <img class="block ml-auto mr-auto animate-slideLeftAn" src="./img/ask.png">
@@ -127,71 +140,85 @@
     </div>
     </div>
 
-    <div class="text-center pt-48">
-        <img class="bg-redPrimary mr-auto ml-auto rounded-3xl" src="./img/ad2Phone.gif">
+    <!--Animated Ad gif-->
+    <div class="text-center ml-2 md:mt-11 mb-1 text-3xl pt-20">
+        <h1>Efficiency. Cool. <span class="font-extrabold text-white p-2 rounded-md animate-changeColorsAn">For
+                you</span>.</h1>
+    </div>
+    <div class="text-center pt-20">
+        <img class="bg-redPrimary mr-auto ml-auto rounded-3xl border-8 border-white md:block hidden"
+            src="./img/ad2Phone.gif">
     </div>
 
     <!--Footer-->
     <footer class="card">
-        <div class="p-10 mt-48 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-5">
+        <div class="p-10 md:mt-48 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-5">
             <div class="text-center p-20">
                 <h1 class="font-bold text-lg">Shop and learn</h1>
                 <ul>
-                    <li class="pt-4"><a href="#">Ejemplo texto aprender para</a></li>
-                    <li class="pt-4"><a href="#">Ejemplo texto aprender para</a></li>
-                    <li class="pt-4"><a href="#">Ejemplo texto aprender para</a></li>
-                    <li class="pt-4"><a href="#">Ejemplo texto aprender para</a></li>
-                    <li class="pt-4"><a href="#">Ejemplo texto aprender para</a></li>
+                    <li class="pt-4"><a href="#">Best Smarthpones</a></li>
+                    <li class="pt-4"><a href="#">Last news</a></li>
+                    <li class="pt-4"><a href="#">About prices</a></li>
+                    <li class="pt-4"><a href="#">Learn with us</a></li>
+                    <li class="pt-4"><a href="#">Documentation for users</a></li>
                 </ul>
             </div>
             <div class="text-center p-20">
                 <h1 class="font-bold text-lg">Devices</h1>
                 <ul>
-                    <li class="pt-4"><a href="#">Ejemplo texto aprender para</a></li>
-                    <li class="pt-4"><a href="#">Ejemplo texto aprender para</a></li>
-                    <li class="pt-4"><a href="#">Ejemplo texto aprender para</a></li>
-                    <li class="pt-4"><a href="#">Ejemplo texto aprender para</a></li>
-                    <li class="pt-4"><a href="#">Ejemplo texto aprender para</a></li>
+                    <li class="pt-4"><a href="#">ONE Z</a></li>
+                    <li class="pt-4"><a href="#">ONE ZS</a></li>
+                    <li class="pt-4"><a href="#">ONE B</a></li>
+                    <li class="pt-4"><a href="#">ONE B Mini</a></li>
+                    <li class="pt-4"><a href="#">ONE Y</a></li>
                 </ul>
             </div>
             <div class="text-center p-20">
                 <h1 class="font-bold text-lg">Store</h1>
                 <ul>
-                    <li class="pt-4"><a href="#">Ejemplo texto aprender para</a></li>
-                    <li class="pt-4"><a href="#">Ejemplo texto aprender para</a></li>
-                    <li class="pt-4"><a href="#">Ejemplo texto aprender para</a></li>
-                    <li class="pt-4"><a href="#">Ejemplo texto aprender para</a></li>
-                    <li class="pt-4"><a href="#">Ejemplo texto aprender para</a></li>
+                    <li class="pt-4"><a href="#">Find a store</a></li>
+                    <li class="pt-4"><a href="#">Today at Ninfhone</a></li>
+                    <li class="pt-4"><a href="#">Order status</a></li>
+                    <li class="pt-4"><a href="#">Financing</a></li>
+                    <li class="pt-4"><a href="#">Shopping help for user</a></li>
                 </ul>
             </div>
             <div class="text-center p-20">
                 <h1 class="font-bold text-lg">For business</h1>
                 <ul>
-                    <li class="pt-4"><a href="#">Ejemplo texto aprender para</a></li>
-                    <li class="pt-4"><a href="#">Ejemplo texto aprender para</a></li>
-                    <li class="pt-4"><a href="#">Ejemplo texto aprender para</a></li>
-                    <li class="pt-4"><a href="#">Ejemplo texto aprender para</a></li>
-                    <li class="pt-4"><a href="#">Ejemplo texto aprender para</a></li>
+                    <li class="pt-4"><a href="#">Ninfhone and business</a></li>
+                    <li class="pt-4"><a href="#">Shop for business</a></li>
+                    <li class="pt-4"><a href="#">Best technology for your company</a></li>
+                    <li class="pt-4"><a href="#">Support</a></li>
+                    <li class="pt-4"><a href="#">Help</a></li>
                 </ul>
             </div>
         </div>
 
+        <!--Social-->
         <div class="p-10">
             <div class="text-center flex">
                 <ul class="align-middle items-center mr-auto ml-auto">
-                    <img class="sm:w-10 md:w-14 block float-left" src="img/foundation_social-facebook.png">
-                    <img class="sm:w-10 md:w-14 block float-left" src="img/foundation_social-instagram.png">
-                    <img class="sm:w-10 md:w-14 block float-left" src="img/foundation_social-twitter.png">
-                    <img class="sm:w-10 md:w-14 block float-left" src="img/foundation_social-linkedin.png">
-                    <img class="sm:w-10 md:w-14 block float-left" src="img/foundation_social-pinterest.png">
-                    <img class="sm:w-10 md:w-14 block float-left" src="img/foundation_social-tumblr.png">
+                    <img class="sm:w-10 md:w-14 block float-left cursor-pointer"
+                        src="img/foundation_social-facebook.png">
+                    <img class="sm:w-10 md:w-14 block float-left cursor-pointer"
+                        src="img/foundation_social-instagram.png">
+                    <img class="sm:w-10 md:w-14 block float-left cursor-pointer"
+                        src="img/foundation_social-twitter.png">
+                    <img class="sm:w-10 md:w-14 block float-left cursor-pointer"
+                        src="img/foundation_social-linkedin.png">
+                    <img class="sm:w-10 md:w-14 block float-left cursor-pointer"
+                        src="img/foundation_social-pinterest.png">
+                    <img class="sm:w-10 md:w-14 block float-left cursor-pointer" src="img/foundation_social-tumblr.png">
                 </ul>
             </div>
             <div>
-                <h1 class="p-5 text-center text-3xl">We don´t have <span class="font-extrabold  text-blue-400">LIMITS</span>.</h1>
+                <h1 class="p-5 text-center text-3xl">We don´t have <span
+                        class="font-extrabold  text-blue-400">LIMITS</span>.</h1>
             </div>
         </div>
 
+        <!--Brand-->
         <div class="text-center">
             <h1 class="text-center font-bold p-5">ninfhone © 2022</h1>
         </div>

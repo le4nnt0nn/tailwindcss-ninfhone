@@ -3,7 +3,8 @@ module.exports = {
         extend: {
             screens: {
                 'xs':'360px',
-                'sm':'300px'
+                'sm':'300px',
+                'mobileNav':'668px'
             },
             keyframes: {
                 slideDown: {
@@ -13,11 +14,17 @@ module.exports = {
                 slideLeft: {
                     'from': {'transform':'translateX(-10%)'},
                     'to': {'transform':'translateX(0%)'} 
+                },
+                changeColor: {
+                    '0%': {'background-color': '#f92746'},
+                    '50%': {'background-color': '#4953bc'},
+                    '100%': {'background-color': '#41d363'},
                 }
             },
             animation: {
                 'slideDownAn':'slideDown 2s linear',
-                'slideLeftAn':'slideLeft 2s linear'
+                'slideLeftAn':'slideLeft 2s linear',
+                'changeColorsAn':'changeColor 5s infinite'
             },
             colors: {
                 'bluePrimary':'#639AE2',
@@ -32,6 +39,9 @@ module.exports = {
             },
             width: {
                 'phoneAd':'500px'
+            },
+            border: {
+                'adAnimated':'20px'
             }
         },
     },
